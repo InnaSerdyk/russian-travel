@@ -1,0 +1,9 @@
+.header__lang-link{
+    display: flex;
+    border: 1px solid red;
+    align-items: flex-end;
+    font-family: Inter sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+

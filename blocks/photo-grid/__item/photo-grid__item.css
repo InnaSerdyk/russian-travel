@@ -1,0 +1,6 @@
+.photo-grid__items {
+    box-sizing: border-box;
+    width: 100%;
+    object-fit: contain;
+
+}
