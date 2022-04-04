@@ -1,0 +1,29 @@
+.overlay {
+    position: relative;
+    border: 1px solid orangered;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.overlay:hover {
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 1024px){
+    .overlay {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .overlay {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .overlay {
+        max-width: 100%;
+    }
+}
