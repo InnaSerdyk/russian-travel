@@ -1,0 +1,17 @@
+.place__title {
+    display: flex;
+    align-items: flex-end;
+    grid-area: title;
+    margin: 0;
+    width: 460px;
+    height: 152px;
+
+    font-family: Inter sans-serif Arial;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    color: #FFFFFF;
+
+
+}

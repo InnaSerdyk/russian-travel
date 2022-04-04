@@ -2,8 +2,23 @@
     display: flex;
     border: 1px solid red;
     align-items: flex-end;
-    font-family: Inter sans-serif;
     font-weight: 400;
+    font-size: 24px;
     color: #FFFFFF;
+    font-style: normal;
+    box-sizing: border-box ;
+
 }
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        max-width: 19.38%;
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+
+
+
 

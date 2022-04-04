@@ -1,13 +1,19 @@
 .intro__list {
     justify-content: flex-start;
     border: 1px solid greenyellow;
-    max-width: 690px;
+    max-width: 100%;
     height: auto;
-    font-family: Inter sans-serif Arial;
+    font-family: "Inter", sans-serif, Arial;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 18px;
     color: #FFFFFF;
-
 }
+
+@media screen and (max-width: 320px) {
+    .intro__list {
+        max-width: 90%;
+    }
+}
+

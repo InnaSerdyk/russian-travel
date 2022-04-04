@@ -3,6 +3,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 11.56% 92px;
+    max-width: calc(100% - 296px);
+    margin: auto;
+}
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: calc(100% - 96px);
 
+    }
+}
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .lead {
+        max-width: 100%;
+    }
 }

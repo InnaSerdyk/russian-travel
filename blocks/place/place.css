@@ -1,0 +1,16 @@
+.place {
+    border: 1px solid blue;
+    width: 98.6%;
+    display: grid;
+    grid-template-columns: 46.75% 49.19%;
+    grid-template-rows: 15.45% 46.75%;
+   /* grid-auto-flow: column;
+    box-sizing: border-box;*/
+    justify-content: space-between;
+    grid-template-areas:
+            "title website"
+            "image paragraph";
+    gap: 48px 40px;
+
+
+}

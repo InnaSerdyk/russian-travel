@@ -1,4 +1,8 @@
 .header__lang-link_En{
     text-decoration: none;
-
+}
+@media screen and (max-width: 320px) {
+    .header__lang-link_En {
+        max-width: 35.48%;
+    }
 }

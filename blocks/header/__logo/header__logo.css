@@ -2,7 +2,25 @@
     border: 1px solid blue;
     align-self: flex-start;
     color: #FFFFFF;
-    font-family: Inter sans-serif;
-    font-weight: 400;
-    font-size: 28px;
+    font-family: "Inter", sans-serif, Arial;
+    max-width: 13.75%;
 }
+
+@media screen and (max-width: 1024px) {
+    .header__logo {
+        max-width: 17.9%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__logo {
+        max-width: 22.92%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .header__logo {
+        max-width: 49.31%;
+    }
+}
+
