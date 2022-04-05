@@ -1,9 +1,12 @@
 .overlay__background {
 
     border: 1px solid yellow;
-    background-image: linear-gradient( rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.2) ), url("../../../image/cover-trains.jpg");
-    max-width: 92.5%;
-    aspect-ratio: 8/5;
+
+    /*aspect-ratio: 8/5;.cover__link {
+    text-decoration: none;
+}.cover__link {
+    text-decoration: none;
+}
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

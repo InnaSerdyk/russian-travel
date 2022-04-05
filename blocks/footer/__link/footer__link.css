@@ -9,8 +9,16 @@
     color: #FFFFFF;
     text-decoration: none;
     margin: 0 18px 0 0;
+    cursor: pointer;
 }
 
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+    .footer__link  {
+        margin: 16px 0 0 0;
+
+    }
+}
 @media screen and (max-width: 320px) {
     .footer__link{
         margin: 0 0 32px 0;

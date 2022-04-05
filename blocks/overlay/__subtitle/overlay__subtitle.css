@@ -1,29 +1,19 @@
 .overlay__subtitle {
-    position: absolute;
-    width: 360px;
-    top: 57.97%;
-    right: 34.08%;
-
-    z-index: 1;
-
+    max-width: 360px;
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 1.125rem;
+    line-height: 1.2;
     text-align: center;
     color: #FFFFFF;
 }
-@media screen and (max-width: 1024px){
-    .overlay__subtitle {
-        top: 59.22%;
-        right: 32.42%;
-    }
-}
-@media screen and (max-width: 768px){
-    .overlay__subtitle {
-        top: 62.29%;
-        right: 26.56%;
+
+@media screen and (max-width: 767px) {
+    .overlay__subtitle{
+        font-size: 14px;
+
+
     }
 }
 
@@ -31,9 +21,5 @@
     .overlay__subtitle {
         font-size: 14px;
         line-height: 16px;
-        max-width: 90%;
-        top: 37.19%;
-        right: 5%;
-
     }
 }
