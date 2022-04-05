@@ -9,8 +9,23 @@
     text-align: center;
     color: #FFFFFF;
 }
+@media screen and (max-width: 321px) and (min-width: 767px) {
+    .overlay__title {
+       
+        font-size: 50px;
+        line-height: 1;
+        letter-spacing: 3px;
 
+    }
+}
+@media screen and (max-width: 375px) {
+    .overlay__title {
+        font-size: 45px;
+        line-height: 1;
+        letter-spacing: 3px;
 
+    }
+}
 @media screen and (max-width: 320px) {
     .overlay__title {
         font-size: 35px;

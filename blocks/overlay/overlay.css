@@ -29,12 +29,19 @@
     }
 }
 
-/*@media screen and (min-width: 321px) and (max-width: 767px) {
+@media screen and (max-width: 425px) {
     .overlay {
         padding: 33px 0;
         margin: 0 0 64px 0;
     }
-}*/
+}
+@media screen and (max-width: 375px) {
+    .overlay {
+        padding: 33px 0;
+        margin: 0 0 64px 0;
+
+    }
+}
 @media screen and (max-width: 320px){
     .overlay {
         padding: 33px 0;
