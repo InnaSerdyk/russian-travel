@@ -1,7 +1,6 @@
 .photo-grid{
     width: 92.5%;
     margin: 92px 4.06%;
-    border: 1px solid deeppink;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);

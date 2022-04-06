@@ -1,5 +1,4 @@
 .place {
-    border: 1px solid blue;
     display: grid;
     grid-template-columns: 46.75% 49.19%;
     /*grid-template-rows: 15.45% 46.75%;*/
