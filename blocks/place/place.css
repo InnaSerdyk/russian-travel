@@ -1,9 +1,8 @@
 .place {
     border: 1px solid blue;
-    width: 98.6%;
     display: grid;
     grid-template-columns: 46.75% 49.19%;
-    grid-template-rows: 15.45% 46.75%;
+    /*grid-template-rows: 15.45% 46.75%;*/
    /* grid-auto-flow: column;
     box-sizing: border-box;*/
     justify-content: space-between;
@@ -11,6 +10,32 @@
             "title website"
             "image paragraph";
     gap: 48px 40px;
-
-
+    margin: 0 0 80px 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .place {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .place {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        max-width: 320px;
+        display: block;
+        margin: 50px 0 0 0;
+    }
+}
+

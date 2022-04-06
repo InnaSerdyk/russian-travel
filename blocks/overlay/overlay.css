@@ -7,7 +7,7 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    padding: 245px 48px;
+    aspect-ratio: 8/5;
     border: 1px solid orangered;
     max-width: 1184px;
     margin: 0 auto;
@@ -23,28 +23,9 @@
     }
 }
 
-@media screen and (max-width: 768px){
-    .overlay {
-        padding: 115px 0;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .overlay {
-        padding: 33px 0;
-        margin: 0 0 64px 0;
-    }
-}
-@media screen and (max-width: 375px) {
-    .overlay {
-        padding: 33px 0;
-        margin: 0 0 64px 0;
-
-    }
-}
 @media screen and (max-width: 320px){
     .overlay {
-        padding: 33px 0;
+        /*padding: 33px 0;*/
         margin: 0 0 64px 0;
     }
 }

@@ -4,33 +4,21 @@
     font-family: "Inter", sans-serif, Arial;
     font-style: normal;
     font-weight: 900;
-    font-size: 4.5rem;
-    line-height: 1.05;
+    font-size: 72px;
+    line-height: 76px;
     text-align: center;
     color: #FFFFFF;
 }
-@media screen and (max-width: 321px) and (min-width: 767px) {
+@media screen and (max-width: 768px) {
     .overlay__title {
-       
-        font-size: 50px;
+        font-size: 9.375vw;
         line-height: 1;
-        letter-spacing: 3px;
-
+        max-width: 72.9vw;
     }
 }
-@media screen and (max-width: 375px) {
-    .overlay__title {
-        font-size: 45px;
-        line-height: 1;
-        letter-spacing: 3px;
 
-    }
-}
 @media screen and (max-width: 320px) {
     .overlay__title {
-        font-size: 35px;
-        line-height: 32px;
-        letter-spacing: 3px;
-
+        max-width: 72.9vw;
     }
 }

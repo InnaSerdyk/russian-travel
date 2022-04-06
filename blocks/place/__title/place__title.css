@@ -3,15 +3,45 @@
     align-items: flex-end;
     grid-area: title;
     margin: 0;
-    width: 460px;
-    height: 152px;
-
-    font-family: Inter sans-serif Arial;
+    max-width: 460px;
+    font-family: "Inter", sans-serif, Arial;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     color: #FFFFFF;
+}
 
+@media screen and (max-width: 1024px) {
+    .place__title {
+        font-size: 7.03125vw;
+        line-height: 46px;
+        max-width: 330px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        font-size: 5.46875vw;
+        line-height: 46px;
+        max-width: 330px;
+    }
+
+}
+
+@media screen and (max-width: 585px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+}
+@media screen and (max-width: 320px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin: 0 0 32px 16px;
+    }
 
 }
