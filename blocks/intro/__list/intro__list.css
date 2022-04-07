@@ -1,13 +1,13 @@
 .intro__list {
     justify-content: flex-start;
     max-width: 100%;
-    height: auto;
     font-family: "Inter", sans-serif, Arial;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 18px;
     color: #FFFFFF;
+    margin: 33px 0 0 0;
 }
 
 @media screen and (max-width: 320px) {

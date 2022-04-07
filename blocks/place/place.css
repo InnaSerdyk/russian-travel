@@ -1,9 +1,6 @@
 .place {
     display: grid;
     grid-template-columns: 46.75% 49.19%;
-    /*grid-template-rows: 15.45% 46.75%;*/
-   /* grid-auto-flow: column;
-    box-sizing: border-box;*/
     justify-content: space-between;
     grid-template-areas:
             "title website"
@@ -11,7 +8,9 @@
     gap: 48px 40px;
     margin: 0 0 80px 0;
 }
-
+.place:last-of-type {
+    margin: 0 0 0 0;
+}
 @media screen and (max-width: 1024px) {
     .place {
         max-width: 928px;

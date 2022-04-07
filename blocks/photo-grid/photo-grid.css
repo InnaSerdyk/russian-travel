@@ -1,6 +1,6 @@
 .photo-grid{
     width: 92.5%;
-    margin: 92px 4.06%;
+    margin: 92px 4.06% 116px 4.06%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -11,6 +11,7 @@
     .photo-grid {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
+        margin: 92px 4.06% 92px 4.06%;
     }
 }
 
@@ -18,5 +19,11 @@
     .photo-grid {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
+        margin: 92px 4.06% 88px 4.06%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .photo-grid {
+        margin: 92px 4.06% 64px 4.06%;
     }
 }
