@@ -10,6 +10,9 @@
 
 .place__website_link:hover{
     cursor: pointer;
+    color: #AAAAAA;
+
+
 }
 @media screen and (max-width: 320px) {
     .place__website_link {

@@ -1,0 +1,13 @@
+.footer__list-element {
+}
+
+
+@media screen and (max-width: 320px) {
+    .footer__list-element  {
+        margin: 0 0 32px 0;
+
+    }
+}
+
+
+

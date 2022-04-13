@@ -1,8 +1,9 @@
 .footer {
-    max-width: 92.5%;
+    max-width: 720px;
     display: flex;
     margin: auto;
     padding: 0 0 24px 0;
+    list-style-type: none;
 }
 
 @media screen and (max-width: 1024px) {

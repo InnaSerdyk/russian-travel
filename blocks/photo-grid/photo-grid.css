@@ -24,6 +24,8 @@
 }
 @media screen and (max-width: 320px) {
     .photo-grid {
+        display: flex;
+        flex-direction: column;
         margin: 92px 4.06% 64px 4.06%;
     }
 }

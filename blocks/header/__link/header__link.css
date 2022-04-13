@@ -1,4 +1,4 @@
-.header__lang-link{
+.header__link{
     display: flex;
     align-items: flex-end;
     font-weight: 400;
@@ -6,16 +6,26 @@
     color: #FFFFFF;
     font-style: normal;
     box-sizing: border-box ;
-
+   font-family: "inter", Arial, sans-serif;
 }
 
+.header__link:last-child{
+    margin: 0 0 0 18px;
+}
+
+
 @media screen and (max-width: 320px) {
-    .header__lang-link {
+    .header__link {
         max-width: 19.38%;
         font-size: 18px;
         line-height: 20px;
     }
 }
+/*@media screen and (max-width: 320px) {
+    .header__link {
+        max-width: 35.48%;
+    }
+}*/
 
 
 
