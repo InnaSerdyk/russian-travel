@@ -3,7 +3,7 @@
     justify-content: flex-start;
     flex-direction: column;
     grid-area: website;
-    width: 456px;
+    max-width: 456px;
     height: 52px;
     align-self: end;
 }
