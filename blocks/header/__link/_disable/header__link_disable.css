@@ -1,7 +1,0 @@
-.header__link_disable {
-    text-decoration: none;
-}
-.header__link_disable:hover{
-    cursor: pointer;
-    opacity: 0.8;
-}

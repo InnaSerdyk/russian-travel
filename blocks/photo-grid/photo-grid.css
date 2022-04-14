@@ -29,6 +29,7 @@
         max-width: 288px;
         display: flex;
         flex-direction: column;
-        margin: 92px 5vw 64px 5vw;
+        margin: 64px 5vw 64px 5vw;
+        gap: 12px 0;
     }
 }

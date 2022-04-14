@@ -1,6 +1,6 @@
 .place {
     display: grid;
-    grid-template-columns: 46.75% 49.19%;
+    grid-template-columns: 47.22% 48.88%;
     justify-content: space-between;
     grid-template-areas:
             "title website"
@@ -22,6 +22,7 @@
     .place {
         max-width: 720px;
         gap: 48px 28px;
+        margin: 0 0 73px 0;
     }
 }
 
@@ -33,6 +34,11 @@
 
 @media screen and (max-width: 320px) {
     .place {
+        max-width: 320px;
+        margin: 50px 0 0 0;
+    }
+
+    .place:last-of-type {
         max-width: 320px;
         margin: 50px 0 0 0;
     }

@@ -4,6 +4,5 @@
     flex-direction: column;
     grid-area: website;
     max-width: 456px;
-    height: 52px;
     align-self: end;
 }
