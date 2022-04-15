@@ -26,9 +26,14 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
     .place {
         display: block;
+        margin: 50px 0 0 0;
+    }
+
+    .place:last-of-type {
+        margin: 50px 0 0 0;
     }
 }
 

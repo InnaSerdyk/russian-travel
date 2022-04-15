@@ -1,20 +1,20 @@
-.header__link{
+.header__link {
     display: flex;
     align-items: flex-end;
     font-weight: 400;
     font-size: 24px;
     color: #FFFFFF;
     font-style: normal;
-    box-sizing: border-box ;
-   font-family: "inter", Arial, sans-serif;
+    box-sizing: border-box;
+    font-family: "inter", Arial, sans-serif;
     text-decoration: none;
 }
 
-.header__link:last-child{
+.header__link:last-child {
     margin: 0 0 0 18px;
 }
 
-.header__link:hover{
+.header__link:hover {
     cursor: pointer;
     opacity: 0.8;
 }
@@ -22,16 +22,10 @@
 
 @media screen and (max-width: 320px) {
     .header__link {
-        max-width: 19.38%;
         font-size: 18px;
         line-height: 20px;
     }
 }
-/*@media screen and (max-width: 320px) {
-    .header__link {
-        max-width: 35.48%;
-    }
-}*/
 
 
 
