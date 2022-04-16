@@ -10,15 +10,6 @@
     }
 }
 
-@media screen and (max-width: 320px) {
-    .footer__list-element  {
-        margin: 0 0 32px 0;
-
-    }
-    .footer__list-element:last-child{
-        margin: 0;
-    }
-}
 
 
 
